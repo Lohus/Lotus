@@ -4,7 +4,7 @@ from move_mesh import move
 from get_all_point_of_mesh import *
 from interpolation import *
 
-# Класс для мэша температуры
+# Класс мэша из температуры
 class TempT():
     def __init__(self, array_of_temp):
         temp = get_xyz_ijk(array_of_temp)

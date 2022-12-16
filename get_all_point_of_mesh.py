@@ -1,4 +1,5 @@
 from get_vertexes_of_mesh import *
+
 # Получение i, j, k индексов и x, y, z всех точек
 def get_xyz_ijk(arrtemp):
     ib=[0,2,6,4,1,3,7,5,1,7,0,6]

@@ -26,11 +26,9 @@ STLMesh = go.Mesh3d(
             name='LOTUS STHE',
             showscale=False)
 
-# Подготовка 3D-меша и данных температуры
+# Подготовка 3D-меша из данных температуры
 DataOfTemperature = TempT(arr)
-x_t, y_t, z_t = DataOfTemperature.move_on(-100, 5, 20) 
-print(min(DataOfTemperature.intens))
-print(max(DataOfTemperature.intens))                        
+x_t, y_t, z_t = DataOfTemperature.move_on(-100, 5, 20)                      
 TempMesh = go.Mesh3d(
             x=x_t,
             y=y_t,
