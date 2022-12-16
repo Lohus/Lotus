@@ -14,8 +14,8 @@
 - $intens$ - значения температуры для каждой точки.
 
 Конечный объект температуры имеет вид:
-![Mesh of temp](img\temp.png)
+![Mesh of temp](https://raw.githubusercontent.com/Lohus/Lotus/main/img/temp.png)
 
 Наложение объектов:
-![All meshes](img\allmesh.png)
+![All meshes](https://raw.githubusercontent.com/Lohus/Lotus/main/img/allmesh.png)
 
